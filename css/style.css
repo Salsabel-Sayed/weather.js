@@ -1,0 +1,105 @@
+body{
+    background-color:#212529;
+    background-image: url(../imgs/sebastian-laverde-JgZL6LHzwn8-unsplash.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Caprasimo', serif;
+    /* font-family: 'Lobster', sans-serif; */
+}
+.colorOp{
+    background-color: #21252972;
+    color: white;
+}
+.card-header{
+    background-color: #21252982;
+}
+.row{
+    height: 80vh;
+}
+header h1{
+    text-align: center;
+    background-color: #2125298d;;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 40px;
+
+}
+section .card-body .icondetails img{
+    width: 30px;
+    margin-right: 10px;
+}
+.card-body .tempo strong{
+    font-size: 60px;
+}
+.temp strong{
+    font-size: 30px;
+}
+.temp strong:nth-last-child(1){
+    font-size: 20px;
+}
+.tempo strong small{
+    position: relative;
+    top: -24px;
+    font-size: 48px;
+}
+.temp small{
+    position: relative;
+    bottom: 12px;
+    font-size: 20px;
+}
+section .form{
+    margin-top: 40px;
+}
+.form .search{
+    background-color: #2125298d;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 25%;
+    padding: 7px;
+
+}
+.form .search input{
+    width: 100%;
+}
+.form #btnSearch{
+    background-color:#2125293e;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+*::-webkit-input-placeholder {
+    color: white !important;
+}
+input[placeholder], [placeholder], *[placeholder] {
+    color: white !important;
+}
+.form .form-control{
+    background-color: transparent;
+    border: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
