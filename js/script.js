@@ -58,7 +58,7 @@ function displayData(){
 <div class="col-sm-12 col-lg-4 animate__animated animate__zoomIn animate__delay-2s">
     <div class="dayone text-center">
         <div class="card colorOp mb-3">
-            <div class="card-header">${days[day+1]}</div>
+            <div class="card-header">${days[(day+1 > 6) ? day = 0: day]}</div>
             <div class="card-body py-4">
                 <img src="${data.forecast.forecastday[1].hour[1].condition.icon}" alt="">
                 <div class="temp my-4">
@@ -73,7 +73,7 @@ function displayData(){
 <div class="col-sm-12 col-lg-4 animate__animated animate__zoomIn animate__delay-3s">
 <div class="dayone text-center">
     <div class="card colorOp mb-3">
-        <div class="card-header">${days[day+2 > 6 ? day = 0: day]}</div>
+        <div class="card-header">${days[(day+2 > 6) ? day = 0: day +2]}</div>
         <div class="card-body py-4">
             <img src="${data.forecast.forecastday[2].hour[2].condition.icon}" alt="">
             <div class="temp my-4">
