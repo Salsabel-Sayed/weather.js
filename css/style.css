@@ -32,6 +32,9 @@ section .card-body .icondetails img{
     width: 30px;
     margin-right: 10px;
 }
+.card-body {
+    height: 268px;
+}
 .card-body .tempo strong{
     font-size: 60px;
 }
