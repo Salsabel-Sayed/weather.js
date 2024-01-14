@@ -34,7 +34,7 @@ function displayData(){
                   <h5 class="card-title">${data.location.name}</h5>
                   <div class="tempo d-flex justify-content-around">
                     <strong>${data.forecast.forecastday[0].day.maxtemp_c}<small>o</small>c</strong>
-                  <img src="${data.forecast.forecastday[0].hour[0].condition.icon}" alt="">
+                  <img src="${data.current.condition.icon}" alt="">
                   </div>
                   <p>${data.forecast.forecastday[0].day.condition.text}</p>
                   <div class="icondetails d-flex mt-5 justify-content-around">
@@ -60,7 +60,7 @@ function displayData(){
         <div class="card colorOp mb-3">
             <div class="card-header">${days[(day+1 > 6) ? day = 0: day+1]}</div>
             <div class="card-body py-4">
-                <img src="${data.forecast.forecastday[1].hour[1].condition.icon}" alt="">
+                <img src="${data.current.condition.icon}" alt="">
                 <div class="temp my-4">
                     <strong class="my-3 d-block card-title">${data.forecast.forecastday[1].day.maxtemp_c}<small>o</small>c</strong>
                     <strong class=" d-block card-title">${data.forecast.forecastday[1].day.mintemp_c}<small>o</small>c</strong>
@@ -75,7 +75,7 @@ function displayData(){
     <div class="card colorOp mb-3">
         <div class="card-header">${days[(day+2 > 6) ? day = 0: day +2]}</div>
         <div class="card-body py-4">
-            <img src="${data.forecast.forecastday[2].hour[2].condition.icon}" alt="">
+            <img src="${data.current.condition.icon}" alt="">
             <div class="temp my-4">
                 <strong class="my-3 d-block card-title">${data.forecast.forecastday[2].day.maxtemp_c}<small>o</small>c</strong>
                 <strong class=" d-block card-title">${data.forecast.forecastday[2].day.mintemp_c}<small>o</small>c</strong>
