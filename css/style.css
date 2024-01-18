@@ -14,10 +14,7 @@ body{
 .card-header{
     background-color: #21252982;
 }
-.row{
-    height: 80vh;
-}
-header h1{
+h1{
     text-align: center;
     background-color: #2125298d;;
     padding: 15px;
@@ -55,12 +52,12 @@ section .card-body .icondetails img{
     font-size: 20px;
 }
 section .form{
-    margin-top: 40px;
+    margin-block: 70px;
 }
 .form .search{
     background-color: #2125298d;
     border-radius: 20px;
-    width: 40%;
+    width: 70%;
     margin-left: 25%;
     padding: 7px;
 
